@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Planet Explorer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> Planet Explorer</a>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Planets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Heading -->
+    <div class="container text-center mt-4">
+        <h1 class="text-primary"> My Planet Explorer</h1>
+        <p>Travel through space and discover amazing planets!</p>
+
+        <!-- Three Loading Spinners -->
+        <div class="my-4">
+            <div class="spinner-border text-primary m-2"></div>
+            <div class="spinner-border text-danger m-2"></div>
+            <div class="spinner-border text-success m-2"></div>
+        </div>
+
+        <h2 class="mb-4">Explore the Planets</h2>
+
+        <!-- Planet Cards -->
+        <div class="row">
+
+            <!-- Earth Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary"> Earth</h3>
+                        <p class="card-text">
+                            Earth is our home planet. It has water,
+                            land, air and millions of living organisms.
+                        </p>
+                        <button class="btn btn-primary">
+                            Explore Earth
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mars Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-danger"> Mars</h3>
+                        <p class="card-text">
+                            Mars is known as the Red Planet because
+                            of its reddish surface.
+                        </p>
+                        <button class="btn btn-danger">
+                            Explore Mars
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jupiter Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-warning"> Jupiter</h3>
+                        <p class="card-text">
+                            Jupiter is the largest planet in our
+                            solar system. It has a giant storm.
+                        </p>
+                        <button class="btn btn-warning">
+                            Explore Jupiter
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pagination -->
+        <nav aria-label="Planet pages">
+            <ul class="pagination justify-content-center mt-3">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p class="mb-0">
+            My Planet Explorer | Discover the Universe! 
+        </p>
+    </footer>
+
+</body>
+
+</html>
